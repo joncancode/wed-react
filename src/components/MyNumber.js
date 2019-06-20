@@ -5,7 +5,6 @@ function MyNumber(props) {
       <div>
           
           <h2>My Number: {props.myNum}</h2>
-
       </div>
     );
   }
