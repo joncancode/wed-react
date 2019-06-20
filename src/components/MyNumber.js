@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class MyNumber extends Component {
-  render() {
-
-    console.log(this.props)
-
+function MyNumber(props) {
     return (
       <div>
           
-          <h2>My Number: {this.props.myNum}</h2>
+          <h2>My Number: {props.myNum}</h2>
 
       </div>
     );
   }
-}
+
 
 export default MyNumber;
